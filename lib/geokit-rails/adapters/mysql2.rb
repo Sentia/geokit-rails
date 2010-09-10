@@ -1,6 +1,6 @@
 module Geokit
   module Adapters
-    class MySQL2 < Abstract
+    class Mysql2 < Abstract
       
       def sphere_distance_sql(lat, lng, multiplier)
         %|
